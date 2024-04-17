@@ -20,11 +20,17 @@ const gameName = new String("PlaywithMily") // another way to use string data ty
 
 // console.log(gameName.indexOf('a'));
 
- const newString = gameName.substring(0,4)
+ //const newString = gameName.substring(0,4)
 
 
- console.log(newString);
+ //console.log(newString);
+//  const str = "The morning is upon us.";
+const str3=  "BMW, Audi, Mercedes";
+console.log(str3.slice(-12,-6));
 
- const anotherString = gameName.slice(-4,0)
+ const anotherString = gameName.slice(-4,10)
 
- console.log(anotherString)
+
+
+ //console.log(anotherString)
+// console.log(str);
