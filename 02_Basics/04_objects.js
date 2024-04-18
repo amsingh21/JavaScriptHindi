@@ -55,7 +55,39 @@ const user1 = [
 
 //console.log(user1[1].id);
 
-console.log(creonUser);
+// console.log(creonUser);
 
-console.log(Object.keys(creonUser)) // this will return keys as array 
+// console.log(Object.keys(creonUser)) // this will return keys as array 
+
+// console.log(Object.values(creonUser)); // this will return values as array 
+
+// console.log(creonUser.hasOwnProperty('emailId')); // this method checks if a particular property exists or not use it before using the property based on scenarios 
+
+
+const course = {
+    coursename :"JS In Hindi",
+    price: "999",
+    courseInstructor : "Amita"
+}
+// course.courseInstructor 
+const {courseInstructor  }= course  // this is the syntax to deconstruct an object 
+
+console.log(courseInstructor);
+
+// When we get JSON object then we can do destructure and use values 
+// {
+//     "name" : "Amita",
+//     "addres" : "Plano,
+//     "mobile" :"945-945-9090"
+// }
+
+// some time we get API response as array and inside it has json objects 
+
+[
+    {},
+    {},
+    {}
+]
+
+
 
