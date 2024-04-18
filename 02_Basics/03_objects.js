@@ -1,8 +1,8 @@
 // singleton 
-// object.create 
+// object.create   this is constructor apparoach and it is singleton type 
 
 
-// object literals 
+// object literals  
 // question use symbol in object as key 
 const mySym = Symbol("key1")
 
@@ -35,4 +35,10 @@ JsUser.greeting = function (){
 
 }
 
-console.log();
+console.log(JSUser.greeting());
+JSUser.greetingTwo = function(){
+    console.log(`Hello JSUser ${this.name}`);
+}
+
+console.log(JSUser.greetingTwo());
+

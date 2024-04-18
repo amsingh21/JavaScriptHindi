@@ -4,13 +4,13 @@ const dc_heros = ["Batman", "Flash", "Superman"]
 
 //marvel_heros.push(dc_heros)
 
-// console.log(marvel_heros);
+//console.log(marvel_heros);
 
 // console.log(marvel_heros[3][1]);
 
 const allHeros= marvel_heros.concat(dc_heros)
 
-// console.log(allHeros);
+ //console.log(allHeros);
 
 // console.log(marvel_heros);
 
@@ -25,17 +25,17 @@ const usable_another_Array= another_Array.flat(Infinity)
 //console.log(usable_another_Array);
 
 
-// console.log( Array.isArray("Amita"));
+//console.log( Array.isArray("Amita"));
 
-// console.log( Array.from("Amita"));
+//console.log( Array.from("Amita"));
 
-// console.log(Array.from({name : "Amita"})); //Imporatnt 
+ console.log(Array.from({name : "Amita"})); //Imporatnt 
 
 let score1 = 100
 let score2 = 200
 let score3=300
 
 
-console.log(Array.of(score1,score2,score3));
+//console.log(Array.of(score1,score2,score3));
 
 //study about arrays 
